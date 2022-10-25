@@ -118,10 +118,6 @@ This app uses the API of the [The Movie Database](https://www.themoviedb.org/?la
 * The user must be able to search for actors by their names.
   * API: /search/multi for searching movies, tv show and people
   * API: /search/person
-* The user must be able to filter his search results for the actors by TODO
-  * API: /discover can filter for people but not for one specific title
-  * API: /person/{id}/movie_credits can be a datasource for movies in which the person was
-  * API: /person/{id}/tv_credits can be a datasource for tv shows in which the person was
 * The user must be able to view the following details for an actor:
   * Movies and series in which the actor had screen time
     * API: /person/{id}/movie_credits
@@ -132,6 +128,9 @@ This app uses the API of the [The Movie Database](https://www.themoviedb.org/?la
     * API: /person/{id}
   * Profile Picture
     * API: part of search result + query image.tmdb.org
+* The user must be able to show the latest movie and series
+
+### Optional Requirements
 * The user must be able to add a movie or a series to his own watchlist.
   * API: POST /list + POST /list/{id}(add_item)
 * The user must be able to view the movies or series in his watchlist.
@@ -139,4 +138,4 @@ This app uses the API of the [The Movie Database](https://www.themoviedb.org/?la
 * The user must be able to remove movies or series from his watchlist.
   * API: POST /list/{id}/remove_item
 
-© 2018 – 2022 [Patrick](https://github.com/patdujmo), [Daniel](https://github.com/linxside), [Ansgar](https://github.com/AnsgarLichter)
+© 2022 [Patrick](https://github.com/patdujmo), [Daniel](https://github.com/linxside), [Ansgar](https://github.com/AnsgarLichter)
