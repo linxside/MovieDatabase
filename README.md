@@ -128,9 +128,12 @@ This app uses the API of the [The Movie Database](https://www.themoviedb.org/?la
     * API: /person/{id}
   * Profile Picture
     * API: part of search result + query image.tmdb.org
-* The user must be able to show the latest movie and series
+* The user must be able to shown the current film or movie trends from today and the week: 
+  * API: /trending/{media_type}/{time_window}
 
 ### Optional Requirements
+* The User must be able to see the movies and series with the best ratings: 
+  * API: /movie/top_rated
 * The user must be able to add a movie or a series to his own watchlist.
   * API: POST /list + POST /list/{id}(add_item)
 * The user must be able to view the movies or series in his watchlist.
